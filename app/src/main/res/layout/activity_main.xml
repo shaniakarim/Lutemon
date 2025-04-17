@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Lutemons"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnBattle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Battle"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Battle Log Appears Here"
+        android:paddingTop="16dp"
+        android:textSize="16sp"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
